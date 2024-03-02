@@ -1,0 +1,23 @@
+package com.Basic.Prgm;
+
+import java.util.Scanner;
+
+public class FibanocciSeries_Range {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter range");
+		int l=s.nextInt();
+		int u=s.nextInt();
+		int a=0;int b=1;int c;
+		while(a<=u)
+		{
+			if(a>=l)System.out.print(a+" ");
+			c=a+b;
+			a=b;
+			b=c;
+		}
+		s.close();
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.DoubleLinkedList.pack;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		LinkedList li=new LinkedList();
+		li.add(20);
+		li.add(30);
+		li.add(40);
+		li.add(50);
+		li.add(60);
+		li.add(70);
+		li.add(3,10);
+		li.show();
+		System.out.println("---------------");
+		li.size();
+	}
+
+}
